@@ -1,5 +1,6 @@
 const db = require('./db');
 const connection = db.connection;
+const data = require('./data');
 
 connection.query('CREATE DATABASE IF NOT EXISTS gobble_profile', (err) => {
   if (err) {
@@ -62,6 +63,11 @@ connection.query('CREATE DATABASE IF NOT EXISTS gobble_profile', (err) => {
             console.log(err);
           } else {
             console.log('CREATED TABLE historical_user_nutrients in DATABASE gobble_profile');
+            data.forEach((item) => {
+              connection.query(`INSERT INTO historical_user_nutrients (date, username, calcium, 
+                energy) VALUES("${item.date}", "${item.username}", "${item.calcium}", "${item.energy}")`);
+            });
+            console.log('INSERTED DATA');
           }
         });
       }

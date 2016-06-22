@@ -1,10 +1,9 @@
 const mysql = require('mysql');
-const dbConfig = require('./dbConfig');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: dbConfig.password,
+  host: process.env.HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
 });
 
 module.exports = {

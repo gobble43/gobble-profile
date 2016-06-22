@@ -5,3 +5,5 @@
 ._*
 node_modules/
 server/config/dbConfig.js
+env/development.env
+env/production.env

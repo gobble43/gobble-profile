@@ -1,0 +1,26 @@
+[
+  {
+  "date":"2015-11-08",
+  "username": "jinsoocha",
+  "calcium": 100,
+  "energy": 200
+  },
+    {
+  "date":"2015-11-07",
+  "username": "jinsoocha",
+  "calcium": 100,
+  "energy": 200
+  },  
+  {
+  "date":"2015-11-06",
+  "username": "jinsoocha",
+  "calcium": 100,
+  "energy": 200
+  },
+  {
+  "date":"2015-11-03",
+  "username": "willtang",
+  "calcium": 100,
+  "energy": 200
+  }
+]
