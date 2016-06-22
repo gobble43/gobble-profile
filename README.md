@@ -3,7 +3,7 @@
 [![Stories in Ready](https://badge.waffle.io/gobble43/gobble-profile.png?label=ready&title=Ready)](https://waffle.io/gobble43/gobble-profile)
 
 # Gobble-profile
-Gobble-profile is a microservice which takes a request with a username and sends back the user specific information including, but not limited to, user's previous post and historical nutrients data. 
+Gobble-profile is a microservice which takes a request with a username and sends back the user specific information including, but not limited to, user's previous posts and historical nutrients data. 
 
 ## Table of Contents
 1. [Getting started](#getting-started)
