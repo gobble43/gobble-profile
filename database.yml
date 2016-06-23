@@ -1,5 +1,0 @@
-test:
-  adapter: mysql
-  database: gobble_profile
-  username: travis
-  encoding: utf8
