@@ -4,8 +4,7 @@ node_js:
 services:
   - mysql
 before_install:
-  - mysql -e "CREATE DATABASE IF NOT EXISTS gobble_profile" -uroot
+  - mysql -u root -e "create database IF NOT EXISTS gobble_profile;"
 script:
   - npm run lint
-  - NODE_ENV=test node server/server.js
-  - npm test
+  - NODE_ENV=test node server/server.js & npm test
