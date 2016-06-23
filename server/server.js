@@ -9,7 +9,6 @@ if (process.env.NODE_ENV === 'development') {
   dotenv.config({ path: './env/production.env' });
 }
 
-
 // Initial Configuration, Static Assets, & View Engine Configuration
 require('./config/initializeServer.js')(app, express);
 
