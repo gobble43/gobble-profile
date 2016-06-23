@@ -79,7 +79,7 @@ $ npm test
 ## Team
   - Product Owner:            [Leo Adelstein](https://github.com/leoadelstein)
   - Scrum Master:             [Jack Zhang](https://github.com/jackrzhang)
-  - Development Team Members: [Leo Adelstein](https://github.com/leoadelstein), [Jinsoo Cha](https://github.com/jinsoocha), [Will Tang](https://github.com/willwtang/shortly-deploy), [Jack Zhang](https://github.com/jackrzhang)
+  - Development Team Members: [Leo Adelstein](https://github.com/leoadelstein), [Jinsoo Cha](https://github.com/jinsoocha), [Will Tang](https://github.com/willwtang), [Jack Zhang](https://github.com/jackrzhang)
 
 ## Style-guide
 See [STYLE-GUIDE.md](https://github.com/gobble43/docs/blob/master/STYLE-GUIDE.md) for style-guide.
