@@ -3,8 +3,14 @@ node_js:
   - 6.2.2
 services:
   - mysql
+before_script:
+  - "cat test/mysql_add_user.sql | mysql -uroot"
+mysql_add_user.sql:
+CREATE USER 'tester'@'%' IDENTIFIED BY 'testpass';
+GRANT ALL PRIVILEGES ON *.* TO 'tester'@'%' WITH GRANT OPTION;
 before_install:
   - mysql -e "CREATE DATABASE IF NOT EXISTS gobble_profile" -uroot
 script:
   - npm run lint
-  - NODE_ENV=test node server/server.js & npm test
+  - NODE_ENV=test node server/server.js
+  - npm test
